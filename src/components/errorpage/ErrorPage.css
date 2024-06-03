@@ -1,0 +1,44 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 30px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+  text-align: center;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(../../assets/anime.gif);
+  background-size: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 40px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+.h2{
+  font-size: 3rem;
+}
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #181918;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.contentBox {
+  margin-top: -50px;
+}

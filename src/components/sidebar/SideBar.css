@@ -1,0 +1,60 @@
+/* Add this CSS to SideBar.css */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar__header {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar__nav {
+    flex-grow: 1;
+  }
+  
+  .sidebar__nav-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar__nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar__nav-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar__dropdown {
+    margin-top: auto;
+  }
+  
+  .sidebar__dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar__dropdown-avatar {
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar__dropdown-menu {
+    margin-top: 0.5rem;
+  }
+  
+  .sidebar__dropdown-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar__dropdown-divider {
+    margin: 0.5rem 0;
+  }
+  

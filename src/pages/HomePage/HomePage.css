@@ -1,0 +1,31 @@
+#about {
+  position: relative;
+}
+
+.section__text__p1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-container {
+  gap: 4rem;
+  width: 100%;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; /* Ensure horizontal alignment */
+}
+
+.about-pic {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto;
+}
+
+.about-text {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
