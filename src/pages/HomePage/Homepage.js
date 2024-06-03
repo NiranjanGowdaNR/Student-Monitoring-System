@@ -8,6 +8,7 @@ import { BlackButton } from '../../components/buttonStyles';
 import Navbar from '../Navbar/Navbar';
 import "./HomePage.css";
 
+
 const Homepage = () => {
   return (
     <>
@@ -55,7 +56,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-
+      
       <section id="Contact" style={{ backgroundColor: '#FFFFFF' }}>
         <FooterContainer sx={{ backgroundColor: '#FFFFFF' }}>
           <Grid container spacing={2}>
