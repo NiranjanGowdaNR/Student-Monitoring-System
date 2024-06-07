@@ -8,7 +8,6 @@ import { BlackButton } from '../../components/buttonStyles';
 import Navbar from '../Navbar/Navbar';
 import "./HomePage.css";
 
-
 const Homepage = () => {
   return (
     <>
@@ -42,9 +41,10 @@ const Homepage = () => {
             </Grid>
           </Grid>
         </StyledContainer>
+        <br/><br/><br/>
       </section>
 
-      <section id='About'>
+      <section id='About'><br/><br/><br/><br/>
         <p className="section__text__p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
         <div className="section-container">
@@ -56,9 +56,9 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      
-      <section id="Contact" style={{ backgroundColor: '#FFFFFF' }}>
-        <FooterContainer sx={{ backgroundColor: '#FFFFFF' }}>
+
+      <section id="Contact" style={{ backggroundColor: 'rgb(0,0,0)' }}>
+        <FooterContainer sx={{ backgroundColor: 'rgb(0,0,0)', color: 'white',width:'135%',marginLeft:'-155px' }}>
           <Grid container spacing={2}>
             <Grid item xs={6} md={2}>
               <FooterSection title="Section" items={['Home', 'Features', 'Pricing', 'FAQs', 'About']} />
@@ -72,7 +72,7 @@ const Homepage = () => {
             <Grid item xs={12} md={5}>
               <form>
                 <Typography variant="h6">Subscribe to our newsletter</Typography>
-                <Typography>Monthly digest of what's new and exciting from us.</Typography>
+                <Typography sx={{ color: 'white'}}>Monthly digest of what's new and exciting from us.</Typography>
                 <Box display="flex" flexDirection={{ xs: 'column', sm: 'row' }} gap={2} mt={2}>
                   <TextField
                     id="newsletter1"
@@ -80,13 +80,13 @@ const Homepage = () => {
                     variant="outlined"
                     fullWidth
                   />
-                  <Button variant="contained" color="primary" type="button">Subscribe</Button>
+                  <Button variant="contained" color="primary" type="button" style={{ backgroundColor: 'white', color: 'black' }}>Subscribe</Button>
                 </Box>
               </form>
             </Grid>
           </Grid>
           <Box display="flex" justifyContent="space-between" alignItems="center" borderTop="1px solid #ddd" py={3} mt={3}>
-            <Typography>© 2024 Company, Inc. All rights reserved.</Typography>
+            <Typography sx={{ color: 'white' }}>© 2024 Company, Inc. All rights reserved.</Typography>
             <ul className="list-unstyled d-flex">
               <li className="ms-3"><a className="link-body-emphasis" href="https://twitter.com "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
                 <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
