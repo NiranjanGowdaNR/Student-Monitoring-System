@@ -20,7 +20,8 @@ function Login() {
       <p>Login to your account</p>
       <LoginForm role={role} />
       <div className="register-link">
-        <p>Don't have an account? <a href="/register">Register</a></p>
+        <p>Don't have an account? <a href="/register">Register</a></p><br/>
+        <p>Forgot Password? <a href="emailto">Click Here to Reset</a></p>
       </div>
     </div>
   );
